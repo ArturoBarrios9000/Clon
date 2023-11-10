@@ -1,0 +1,136 @@
+/* Usa este archivo para tus estilos ANDRES */
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100&family=Kavivanar&family=Noto+Sans+Tai+Le&family=Walter+Turncoat&display=swap');
+/* FUENTES A EMPLEAR
+<style>
+
+</style>
+*/
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Kavivanar', cursive;
+font-family: 'Noto Sans Tai Le', sans-serif;
+font-family: 'Walter Turncoat', cursive;
+*/
+
+
+.encabezado{
+    background-color: #427AA1;
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado:hover{
+    background-color: #203e53;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.enMover:hover{
+    
+    transform: translate(0px, 20px);
+    transition: all 0.3s;
+}
+
+.imgPerfil{
+    width: 150px; /* Ajusta el ancho y alto según tus necesidades */
+    height: 150px;
+    border-radius: 50%; /* Esto crea la forma de círculo */
+    position: relative;
+    transition: all 0.3s;
+}
+
+
+html, body 
+{
+    background:#A5BE00;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: "Kavivanar";
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.cuerpo{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.texCuerpo{
+
+    color: white;
+    font-size: 15px;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 5px 5px 10px #272d00; /* Sombra */
+    
+    
+}
+
+.texCuerpo:hover{
+
+    background-color: #819403;
+    transition: all 1s;
+}
+
+label, p, a
+{
+    color: white;
+    font-size: 24px;
+    
+}
+
+a
+{
+    text-decoration: none;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=password],
+button
+{
+    display: inline-block;
+    border-radius: 12px;
+    background-color: rgba(22, 22, 22, 0.5);
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 12px;
+    /* width: 512px; */
+    transition: all 0.5s;
+    margin: 5px;
+    text-decoration: none;
+    border: none;
+    overflow: visible;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=text]:hover,
+input[type=number]:hover,
+input[type=email]:hover,
+input[type=password]:hover,
+button:hover
+{
+	transition: all 0.5s;
+	background-color: #ddd;
+	color: #000;
+}
+
+a:hover
+{
+    transition: all 0.5s;
+	color: #000;
+}
